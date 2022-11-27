@@ -1,0 +1,10 @@
+Command line:
+   tb_mux41_160_163_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51237
+
+Thu Aug 25 09:38:21 2022
+
+
+ Elaboration Time: 0.046801 sec

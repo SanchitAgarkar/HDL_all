@@ -1,0 +1,108 @@
+--------------------------------------------------------------------------------
+Release 14.5 Trace  (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.5\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml alu_160_163.twx alu_160_163.ncd -o alu_160_163.twr
+alu_160_163.pcf -ucf alu_160_163.ucf
+
+Design file:              alu_160_163.ncd
+Physical constraint file: alu_160_163.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.08 2013-03-26)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+------------------+---------+
+Source Pad     |Destination Pad   |  Delay  |
+---------------+------------------+---------+
+A<0>           |ALU_OUT_160_163<0>|    8.716|
+A<0>           |ALU_OUT_160_163<1>|    9.136|
+A<0>           |ALU_OUT_160_163<2>|    8.359|
+A<0>           |ALU_OUT_160_163<3>|    9.392|
+A<0>           |CARRY_OUT_160_163 |    7.797|
+A<1>           |ALU_OUT_160_163<0>|    9.494|
+A<1>           |ALU_OUT_160_163<1>|    9.250|
+A<1>           |ALU_OUT_160_163<2>|    8.473|
+A<1>           |ALU_OUT_160_163<3>|    9.745|
+A<1>           |CARRY_OUT_160_163 |    8.105|
+A<2>           |ALU_OUT_160_163<0>|   10.047|
+A<2>           |ALU_OUT_160_163<1>|    9.351|
+A<2>           |ALU_OUT_160_163<2>|    8.533|
+A<2>           |ALU_OUT_160_163<3>|    8.947|
+A<2>           |CARRY_OUT_160_163 |    7.573|
+A<3>           |ALU_OUT_160_163<0>|    9.889|
+A<3>           |ALU_OUT_160_163<1>|    9.193|
+A<3>           |ALU_OUT_160_163<2>|    8.196|
+A<3>           |ALU_OUT_160_163<3>|    8.356|
+A<3>           |CARRY_OUT_160_163 |    7.380|
+ALU_Sel<0>     |ALU_OUT_160_163<0>|    8.487|
+ALU_Sel<0>     |ALU_OUT_160_163<1>|    8.611|
+ALU_Sel<0>     |ALU_OUT_160_163<2>|    7.678|
+ALU_Sel<0>     |ALU_OUT_160_163<3>|    7.769|
+ALU_Sel<1>     |ALU_OUT_160_163<0>|    8.486|
+ALU_Sel<1>     |ALU_OUT_160_163<1>|    8.975|
+ALU_Sel<1>     |ALU_OUT_160_163<2>|    8.089|
+ALU_Sel<1>     |ALU_OUT_160_163<3>|    7.722|
+ALU_Sel<2>     |ALU_OUT_160_163<0>|    7.297|
+ALU_Sel<2>     |ALU_OUT_160_163<1>|    8.002|
+ALU_Sel<2>     |ALU_OUT_160_163<2>|    7.628|
+ALU_Sel<2>     |ALU_OUT_160_163<3>|    7.528|
+ALU_Sel<3>     |ALU_OUT_160_163<0>|    7.378|
+ALU_Sel<3>     |ALU_OUT_160_163<1>|    7.460|
+ALU_Sel<3>     |ALU_OUT_160_163<2>|    7.181|
+ALU_Sel<3>     |ALU_OUT_160_163<3>|    6.945|
+B<0>           |ALU_OUT_160_163<0>|   10.261|
+B<0>           |ALU_OUT_160_163<1>|   10.114|
+B<0>           |ALU_OUT_160_163<2>|    9.337|
+B<0>           |ALU_OUT_160_163<3>|    9.838|
+B<0>           |CARRY_OUT_160_163 |    8.248|
+B<1>           |ALU_OUT_160_163<0>|   10.076|
+B<1>           |ALU_OUT_160_163<1>|    9.717|
+B<1>           |ALU_OUT_160_163<2>|    8.940|
+B<1>           |ALU_OUT_160_163<3>|    9.679|
+B<1>           |CARRY_OUT_160_163 |    7.856|
+B<2>           |ALU_OUT_160_163<0>|   10.353|
+B<2>           |ALU_OUT_160_163<1>|    9.657|
+B<2>           |ALU_OUT_160_163<2>|    8.793|
+B<2>           |ALU_OUT_160_163<3>|    9.666|
+B<2>           |CARRY_OUT_160_163 |    7.854|
+B<3>           |ALU_OUT_160_163<0>|   10.040|
+B<3>           |ALU_OUT_160_163<1>|    9.344|
+B<3>           |ALU_OUT_160_163<2>|    8.219|
+B<3>           |ALU_OUT_160_163<3>|    9.012|
+B<3>           |CARRY_OUT_160_163 |    7.564|
+---------------+------------------+---------+
+
+
+Analysis completed Thu Sep 08 10:09:06 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 388 MB
+
+
+

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Nov 15 19:35:00 2022
+# Process ID: 13320
+# Current directory: D:/HDL_PRAC/Seq_dec/Seq_dec.runs/synth_1
+# Command line: vivado.exe -log fsm_10011.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fsm_10011.tcl
+# Log file: D:/HDL_PRAC/Seq_dec/Seq_dec.runs/synth_1/fsm_10011.vds
+# Journal file: D:/HDL_PRAC/Seq_dec/Seq_dec.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source fsm_10011.tcl -notrace

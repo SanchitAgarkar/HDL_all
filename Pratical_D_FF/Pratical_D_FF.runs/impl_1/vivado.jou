@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Nov 15 15:44:42 2022
+# Process ID: 13916
+# Current directory: D:/HDL_PRAC/Pratical_D_FF/Pratical_D_FF.runs/impl_1
+# Command line: vivado.exe -log DFF_Code.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source DFF_Code.tcl -notrace
+# Log file: D:/HDL_PRAC/Pratical_D_FF/Pratical_D_FF.runs/impl_1/DFF_Code.vdi
+# Journal file: D:/HDL_PRAC/Pratical_D_FF/Pratical_D_FF.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source DFF_Code.tcl -notrace

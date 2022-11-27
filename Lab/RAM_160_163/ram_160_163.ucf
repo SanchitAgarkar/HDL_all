@@ -1,0 +1,32 @@
+
+# PlanAhead Generated IO constraints 
+
+NET "CLK" CLOCK_DEDICATED_ROUTE = FALSE;
+
+NET "addr[2]" IOSTANDARD = LVCMOS33;
+NET "addr[1]" IOSTANDARD = LVCMOS33;
+NET "addr[0]" IOSTANDARD = LVCMOS33;
+NET "data_in_160_163[2]" IOSTANDARD = LVCMOS33;
+NET "data_in_160_163[1]" IOSTANDARD = LVCMOS33;
+NET "data_in_160_163[0]" IOSTANDARD = LVCMOS33;
+NET "dataout_160_163[2]" IOSTANDARD = LVCMOS33;
+NET "dataout_160_163[1]" IOSTANDARD = LVCMOS33;
+NET "dataout_160_163[0]" IOSTANDARD = LVCMOS33;
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "rd" IOSTANDARD = LVCMOS33;
+NET "wr" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = P4;
+NET "rd" LOC = P3;
+NET "wr" LOC = R3;
+NET "addr[2]" LOC = T3;
+NET "addr[1]" LOC = U2;
+NET "addr[0]" LOC = V2;
+NET "data_in_160_163[2]" LOC = V5;
+NET "data_in_160_163[1]" LOC = V6;
+NET "data_in_160_163[0]" LOC = V7;
+NET "dataout_160_163[2]" LOC = P2;
+NET "dataout_160_163[1]" LOC = R2;
+NET "dataout_160_163[0]" LOC = P5;

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Nov 15 20:03:44 2022
+# Process ID: 12212
+# Current directory: D:/HDL_PRAC/project_RAM/project_RAM.runs/impl_1
+# Command line: vivado.exe -log ram_233_229.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ram_233_229.tcl -notrace
+# Log file: D:/HDL_PRAC/project_RAM/project_RAM.runs/impl_1/ram_233_229.vdi
+# Journal file: D:/HDL_PRAC/project_RAM/project_RAM.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ram_233_229.tcl -notrace

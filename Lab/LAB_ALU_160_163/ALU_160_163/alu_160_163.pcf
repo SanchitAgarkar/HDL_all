@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map P.58f on Thu Sep 08 10:08:32 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "A<0>" LOCATE = SITE "T1" LEVEL 1;
+COMP "A<1>" LOCATE = SITE "R3" LEVEL 1;
+COMP "CARRY_OUT_160_163" LOCATE = SITE "T8" LEVEL 1;
+COMP "A<2>" LOCATE = SITE "P3" LEVEL 1;
+COMP "A<3>" LOCATE = SITE "P4" LEVEL 1;
+COMP "B<0>" LOCATE = SITE "U4" LEVEL 1;
+COMP "B<1>" LOCATE = SITE "V2" LEVEL 1;
+COMP "B<2>" LOCATE = SITE "U2" LEVEL 1;
+COMP "B<3>" LOCATE = SITE "T3" LEVEL 1;
+COMP "ALU_OUT_160_163<0>" LOCATE = SITE "P5" LEVEL 1;
+COMP "ALU_OUT_160_163<1>" LOCATE = SITE "U1" LEVEL 1;
+COMP "ALU_OUT_160_163<2>" LOCATE = SITE "R2" LEVEL 1;
+COMP "ALU_OUT_160_163<3>" LOCATE = SITE "P2" LEVEL 1;
+COMP "ALU_Sel<0>" LOCATE = SITE "U9" LEVEL 1;
+COMP "ALU_Sel<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "ALU_Sel<2>" LOCATE = SITE "R7" LEVEL 1;
+COMP "ALU_Sel<3>" LOCATE = SITE "R6" LEVEL 1;
+SCHEMATIC END;
+

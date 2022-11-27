@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/HDL_PRAC/project_HA_Beh_GL/project_HA_Beh_GL.srcs/sources_1/new/HA_GL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA_GL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/HDL_PRAC/project_HA_Beh_GL/project_HA_Beh_GL.srcs/sim_1/new/tb_HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/HDL_PRAC/project_HA_Beh_GL/project_HA_Beh_GL.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5
+# Build 247527 by xbuild on Mon Mar 25 17:15:20 MDT 2013
+# Start of session at: Thu Aug 25 09:26:25 2022
+# Process ID: 1352
+# Log file: D:/LAB_A4/Lab04_160_163/Mux41/planAhead_run_1/planAhead.log
+# Journal file: D:/LAB_A4/Lab04_160_163/Mux41/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/LAB_A4/Lab04_160_163/Mux41/pa.fromNetlist.tcl
+set_property iostandard LVCMOS33 [get_ports [list a]]
+set_property iostandard LVCMOS33 [get_ports [list b]]
+set_property iostandard LVCMOS33 [get_ports [list c]]
+set_property iostandard LVCMOS33 [get_ports [list d]]
+set_property iostandard LVCMOS33 [get_ports [list s0]]
+set_property iostandard LVCMOS33 [get_ports [list s1]]
+set_property iostandard LVCMOS33 [get_ports [list y]]
+startgroup
+set_property package_pin P4 [get_ports a]
+endgroup
+startgroup
+set_property package_pin P3 [get_ports b]
+endgroup
+startgroup
+set_property package_pin R3 [get_ports c]
+endgroup
+set_property package_pin "" [get_ports [list  s0]]
+startgroup
+set_property package_pin R3 [get_ports c]
+endgroup
+set_property is_loc_fixed false [get_ports [list  a]]
+set_property package_pin "" [get_ports [list  d]]
+startgroup
+set_property package_pin T1 [get_ports d]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports s0]
+endgroup
+set_property package_pin "" [get_ports [list  s1]]
+startgroup
+set_property package_pin U8 [get_ports s0]
+endgroup
+startgroup
+set_property package_pin U9 [get_ports s1]
+endgroup
+startgroup
+set_property package_pin P2 [get_ports y]
+endgroup
+set_property is_loc_fixed true [get_ports [list  a]]
+save_constraints

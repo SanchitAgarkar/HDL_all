@@ -1,0 +1,55 @@
+
+****** PlanAhead v14.5
+  **** Build 247527 by xbuild on Mon Mar 25 17:15:20 MDT 2013
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/LAB_A4/FlipFlop_160_163/D_FF_160_163/pa.fromNetlist.tcl
+# create_project -name D_FF_160_163 -dir "D:/LAB_A4/FlipFlop_160_163/D_FF_160_163/planAhead_run_2" -part xc7a100tcsg324-3
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/LAB_A4/FlipFlop_160_163/D_FF_160_163/d_ff_160_163.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/LAB_A4/FlipFlop_160_163/D_FF_160_163} }
+# set_property target_constrs_file "d_ff_160_163.ucf" [current_fileset -constrset]
+Adding file 'D:/LAB_A4/FlipFlop_160_163/D_FF_160_163/d_ff_160_163.ucf' to fileset 'constrs_1'
+# add_files [list {d_ff_160_163.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc7a100tcsg324-3
+Release 14.5 - ngc2edif P.58f (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Release 14.5 - ngc2edif P.58f (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design d_ff_160_163.ngc ...
+WARNING:NetListWriters:298 - No output is written to d_ff_160_163.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file d_ff_160_163.edif ...
+ngc2edif: Total memory usage is 61200 kilobytes
+
+Parsing EDIF File [./planAhead_run_2/D_FF_160_163.data/cache/d_ff_160_163_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/D_FF_160_163.data/cache/d_ff_160_163_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/artix7/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/drc.xml
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Parsing UCF File [D:/LAB_A4/FlipFlop_160_163/D_FF_160_163/d_ff_160_163.ucf]
+Finished Parsing UCF File [D:/LAB_A4/FlipFlop_160_163/D_FF_160_163/d_ff_160_163.ucf]
+link_design: Time (s): elapsed = 00:00:10 . Memory (MB): peak = 584.191 ; gain = 171.145
+INFO: [Common 17-344] 'link_design' was cancelled
+INFO: [Common 17-344] 'source' was cancelled

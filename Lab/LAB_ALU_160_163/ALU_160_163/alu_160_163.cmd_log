@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "D:/LAB_A4/LAB_ALU_160_163/ALU_160_163/alu_160_163.xst" -ofn "D:/LAB_A4/LAB_ALU_160_163/ALU_160_163/alu_160_163.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alu_160_163.ucf -p xc7a100t-csg324-3 alu_160_163.ngc alu_160_163.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o alu_160_163_map.ncd alu_160_163.ngd alu_160_163.pcf 
+par -w -intstyle ise -ol high -mt off alu_160_163_map.ncd alu_160_163.ncd alu_160_163.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml alu_160_163.twx alu_160_163.ncd -o alu_160_163.twr alu_160_163.pcf -ucf alu_160_163.ucf 
+bitgen -intstyle ise -f alu_160_163.ut alu_160_163.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alu_160_163.ucf -p xc7a100t-csg324-3 alu_160_163.ngc alu_160_163.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o alu_160_163_map.ncd alu_160_163.ngd alu_160_163.pcf 
+par -w -intstyle ise -ol high -mt off alu_160_163_map.ncd alu_160_163.ncd alu_160_163.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml alu_160_163.twx alu_160_163.ncd -o alu_160_163.twr alu_160_163.pcf -ucf alu_160_163.ucf 
+bitgen -intstyle ise -f alu_160_163.ut alu_160_163.ncd 

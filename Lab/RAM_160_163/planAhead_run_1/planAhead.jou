@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5
+# Build 247527 by xbuild on Mon Mar 25 17:15:20 MDT 2013
+# Start of session at: Thu Nov 03 10:33:52 2022
+# Process ID: 6060
+# Log file: D:/LAB_A4/RAM_160_163/planAhead_run_1/planAhead.log
+# Journal file: D:/LAB_A4/RAM_160_163/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/LAB_A4/RAM_160_163/pa.fromNetlist.tcl
+set_property iostandard LVCMOS33 [get_ports [list {addr[2]} {addr[1]} {addr[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {data_in_160_163[2]} {data_in_160_163[1]} {data_in_160_163[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {dataout_160_163[2]} {dataout_160_163[1]} {dataout_160_163[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list clk]]
+set_property iostandard LVCMOS33 [get_ports [list rd]]
+set_property iostandard LVCMOS33 [get_ports [list wr]]
+startgroup
+set_property package_pin P4 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin P3 [get_ports rd]
+endgroup
+startgroup
+set_property package_pin R3 [get_ports wr]
+endgroup
+startgroup
+set_property package_pin T3 [get_ports {addr[2]}]
+endgroup
+startgroup
+set_property package_pin U2 [get_ports {addr[1]}]
+endgroup
+startgroup
+set_property package_pin V2 [get_ports {addr[0]}]
+endgroup
+startgroup
+set_property package_pin V5 [get_ports {data_in_160_163[2]}]
+endgroup
+startgroup
+set_property package_pin V6 [get_ports {data_in_160_163[1]}]
+endgroup
+startgroup
+set_property package_pin V7 [get_ports {data_in_160_163[0]}]
+endgroup
+startgroup
+set_property package_pin P2 [get_ports {dataout_160_163[2]}]
+endgroup
+startgroup
+set_property package_pin R2 [get_ports {dataout_160_163[1]}]
+endgroup
+startgroup
+set_property package_pin U1 [get_ports {dataout_160_163[0]}]
+endgroup
+save_constraints

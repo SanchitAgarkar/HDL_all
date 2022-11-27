@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/HDL_PRAC/JK_FF/JK_FF.srcs/sources_1/new/JK_CODE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module JK_CODE
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'j' is not allowed [D:/HDL_PRAC/JK_FF/JK_FF.srcs/sources_1/new/JK_CODE.v:32]
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'q_229_233' is not allowed [D:/HDL_PRAC/JK_FF/JK_FF.srcs/sources_1/new/JK_CODE.v:33]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/HDL_PRAC/JK_FF/JK_FF.srcs/sim_1/new/TB_JK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB_JK

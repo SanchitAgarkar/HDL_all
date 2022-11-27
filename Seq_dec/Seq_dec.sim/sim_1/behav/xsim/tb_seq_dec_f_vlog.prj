@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Seq_dec.srcs/sources_1/new/fsm_10011.v" \
+"../../../../Seq_dec.srcs/sim_1/new/tb_seq_dec_f.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

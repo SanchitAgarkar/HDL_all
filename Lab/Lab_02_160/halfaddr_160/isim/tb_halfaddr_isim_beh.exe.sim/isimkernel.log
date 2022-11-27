@@ -1,0 +1,28 @@
+Command line:
+   tb_halfaddr_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51757
+
+Thu Aug 25 09:49:01 2022
+
+
+ Elaboration Time: 0.078001 sec
+
+ Current Memory Usage: 677.388 Meg
+
+ Total Signals          : 19
+ Total Nets             : 17
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 99
+
+ Total Simulation Time: 0.093601 sec
+
+ Current Memory Usage: 677.388 Meg
+
+Thu Aug 25 09:49:15 2022
+

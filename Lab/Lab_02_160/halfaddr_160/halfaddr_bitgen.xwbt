@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\LAB_A4\Lab_02_160\halfaddr_160\halfaddr.ncd
+OUTFILE=D:\LAB_A4\Lab_02_160\halfaddr_160\halfaddr.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=D:\LAB_A4\Lab_02_160\halfaddr_160
+LICENSE=WebPack
+USER_INFO=__0_0_0

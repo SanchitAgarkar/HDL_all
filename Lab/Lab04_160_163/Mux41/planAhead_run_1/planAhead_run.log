@@ -1,0 +1,95 @@
+
+****** PlanAhead v14.5
+  **** Build 247527 by xbuild on Mon Mar 25 17:15:20 MDT 2013
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/LAB_A4/Lab04_160_163/Mux41/pa.fromNetlist.tcl
+# create_project -name Mux41 -dir "D:/LAB_A4/Lab04_160_163/Mux41/planAhead_run_1" -part xc7a100tcsg324-3
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/LAB_A4/Lab04_160_163/Mux41/mux41_160_163.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/LAB_A4/Lab04_160_163/Mux41} }
+# set_property target_constrs_file "mux41_160_163.ucf" [current_fileset -constrset]
+Adding file 'D:/LAB_A4/Lab04_160_163/Mux41/mux41_160_163.ucf' to fileset 'constrs_1'
+# add_files [list {mux41_160_163.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc7a100tcsg324-3
+Release 14.5 - ngc2edif P.58f (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Release 14.5 - ngc2edif P.58f (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design mux41_160_163.ngc ...
+WARNING:NetListWriters:298 - No output is written to mux41_160_163.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file mux41_160_163.edif ...
+ngc2edif: Total memory usage is 61136 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/Mux41.data/cache/mux41_160_163_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/Mux41.data/cache/mux41_160_163_ngc_zx.edif]
+Loading clock regions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/artix7/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/drc.xml
+Parsing UCF File [D:/LAB_A4/Lab04_160_163/Mux41/mux41_160_163.ucf]
+Finished Parsing UCF File [D:/LAB_A4/Lab04_160_163/Mux41/mux41_160_163.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: a0328fc4
+link_design: Time (s): elapsed = 00:00:15 . Memory (MB): peak = 645.121 ; gain = 248.516
+set_property iostandard LVCMOS33 [get_ports [list a]]
+set_property iostandard LVCMOS33 [get_ports [list b]]
+set_property iostandard LVCMOS33 [get_ports [list c]]
+set_property iostandard LVCMOS33 [get_ports [list d]]
+set_property iostandard LVCMOS33 [get_ports [list s0]]
+set_property iostandard LVCMOS33 [get_ports [list s1]]
+set_property iostandard LVCMOS33 [get_ports [list y]]
+startgroup
+set_property package_pin P4 [get_ports a]
+endgroup
+startgroup
+set_property package_pin P3 [get_ports b]
+endgroup
+startgroup
+set_property package_pin R3 [get_ports c]
+endgroup
+set_property package_pin "" [get_ports [list  s0]]
+startgroup
+set_property package_pin R3 [get_ports c]
+endgroup
+set_property is_loc_fixed false [get_ports [list  a]]
+set_property package_pin "" [get_ports [list  d]]
+startgroup
+set_property package_pin T1 [get_ports d]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports s0]
+endgroup
+set_property package_pin "" [get_ports [list  s1]]
+startgroup
+set_property package_pin U8 [get_ports s0]
+endgroup
+startgroup
+set_property package_pin U9 [get_ports s1]
+endgroup
+startgroup
+set_property package_pin P2 [get_ports y]
+endgroup
+set_property is_loc_fixed true [get_ports [list  a]]
+save_constraints

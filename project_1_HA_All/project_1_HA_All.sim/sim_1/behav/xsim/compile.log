@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/HDL_PRAC/project_1_HA_All/project_1_HA_All.srcs/sources_1/new/HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HA
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/HDL_PRAC/project_1_HA_All/project_1_HA_All.srcs/sim_1/new/tb_HA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_HA

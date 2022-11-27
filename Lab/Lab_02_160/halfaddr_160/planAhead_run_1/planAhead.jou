@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5
+# Build 247527 by xbuild on Mon Mar 25 17:15:20 MDT 2013
+# Start of session at: Thu Aug 11 10:22:28 2022
+# Process ID: 316
+# Log file: D:/LAB_A4/Lab_02_160/halfaddr_160/planAhead_run_1/planAhead.log
+# Journal file: D:/LAB_A4/Lab_02_160/halfaddr_160/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/LAB_A4/Lab_02_160/halfaddr_160/pa.fromNetlist.tcl
+set_property iostandard LVCMOS33 [get_ports [list a]]
+set_property iostandard LVCMOS33 [get_ports [list b]]
+set_property iostandard LVCMOS33 [get_ports [list c]]
+set_property iostandard LVCMOS33 [get_ports [list s]]

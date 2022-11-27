@@ -1,0 +1,10 @@
+Command line:
+   tb_ram_160_163_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50744
+
+Thu Nov 03 10:28:40 2022
+
+
+ Elaboration Time: 0.046801 sec

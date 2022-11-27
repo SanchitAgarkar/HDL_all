@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5
+# Build 247527 by xbuild on Mon Mar 25 17:15:20 MDT 2013
+# Start of session at: Thu Sep 29 09:15:21 2022
+# Process ID: 4344
+# Log file: D:/LAB_A4/FlipFlop_160_163/D_FF_160_163/planAhead_run_1/planAhead.log
+# Journal file: D:/LAB_A4/FlipFlop_160_163/D_FF_160_163/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/LAB_A4/FlipFlop_160_163/D_FF_160_163/pa.fromNetlist.tcl
+startgroup
+set_property package_pin P4 [get_ports D]
+endgroup
+startgroup
+set_property package_pin U9 [get_ports Q_160_163]
+endgroup
+startgroup
+set_property package_pin P2 [get_ports Q_160_163]
+endgroup
+startgroup
+set_property package_pin U9 [get_ports RST]
+endgroup
+startgroup
+set_property package_pin U9 [get_ports RST]
+endgroup
+startgroup
+set_property package_pin P3 [get_ports CLK]
+endgroup
+save_constraints
+set_property iostandard LVCMOS33 [get_ports [list CLK]]
+set_property iostandard LVCMOS33 [get_ports [list D]]
+set_property iostandard LVCMOS33 [get_ports [list Q_160_163]]
+refresh_design
+set_property iostandard LVCMOS33 [get_ports [list CLK]]
+set_property iostandard LVCMOS33 [get_ports [list D]]
+set_property iostandard LVCMOS33 [get_ports [list Q_160_163]]
+save_constraints
+set_property iostandard LVCMOS33 [get_ports [list RST]]
+save_constraints -force

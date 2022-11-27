@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/HDL_PRAC/Lab/SR_FF_160_163/SR_FF_160_163.srcs/sources_1/new/sr_ff_160_163.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sr_ff_160_163
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/HDL_PRAC/Lab/SR_FF_160_163/SR_FF_160_163.srcs/sim_1/new/tb_sr_ff_160_163.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_sr_ff_160_163

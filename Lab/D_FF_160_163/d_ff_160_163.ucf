@@ -1,0 +1,16 @@
+
+NET "CLK" CLOCK_DEDICATED_ROUTE = FALSE; 
+
+# PlanAhead Generated physical constraints 
+
+NET "CLK" LOC = U9;
+NET "D" LOC = P4;
+NET "Q_160_163" LOC = P2;
+NET "RST" LOC = U8;
+
+# PlanAhead Generated IO constraints 
+
+NET "CLK" IOSTANDARD = LVCMOS33;
+NET "D" IOSTANDARD = LVCMOS33;
+NET "Q_160_163" IOSTANDARD = LVCMOS33;
+NET "RST" IOSTANDARD = LVCMOS33;

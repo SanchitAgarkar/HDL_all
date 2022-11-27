@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5
+# Build 247527 by xbuild on Mon Mar 25 17:15:20 MDT 2013
+# Start of session at: Thu Sep 29 09:37:18 2022
+# Process ID: 5032
+# Log file: D:/LAB_A4/FlipFlop_160_163/D_FF_160_163/planAhead_run_2/planAhead.log
+# Journal file: D:/LAB_A4/FlipFlop_160_163/D_FF_160_163/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/LAB_A4/FlipFlop_160_163/D_FF_160_163/pa.fromNetlist.tcl

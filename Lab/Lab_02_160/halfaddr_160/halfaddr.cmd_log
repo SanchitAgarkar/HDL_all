@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "D:/LAB_A4/Lab_02_160/halfaddr_160/halfaddr.xst" -ofn "D:/LAB_A4/Lab_02_160/halfaddr_160/halfaddr.syr" 
+xst -intstyle ise -ifn "D:/LAB_A4/Lab_02_160/halfaddr_160/halfaddr.xst" -ofn "D:/LAB_A4/Lab_02_160/halfaddr_160/halfaddr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc halfaddr.ucf -p xc7a100t-csg324-3 halfaddr.ngc halfaddr.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o halfaddr_map.ncd halfaddr.ngd halfaddr.pcf 
+par -w -intstyle ise -ol high -mt off halfaddr_map.ncd halfaddr.ncd halfaddr.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml halfaddr.twx halfaddr.ncd -o halfaddr.twr halfaddr.pcf -ucf halfaddr.ucf 
+bitgen -intstyle ise -f halfaddr.ut halfaddr.ncd 

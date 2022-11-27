@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/LAB_A4/FlipFlop_160_163/D_FF_160_163/tb_d_FF_160_160_isim_beh.exe" -prj "D:/LAB_A4/FlipFlop_160_163/D_FF_160_163/tb_d_FF_160_160_beh.prj" "work.tb_d_FF_160_160" "work.glbl" 

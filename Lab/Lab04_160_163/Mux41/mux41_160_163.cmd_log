@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "D:/LAB_A4/Lab04_160_163/Mux41/mux41_160_163.xst" -ofn "D:/LAB_A4/Lab04_160_163/Mux41/mux41_160_163.syr" 
+xst -intstyle ise -ifn "D:/LAB_A4/Lab04_160_163/Mux41/mux41_160_163.xst" -ofn "D:/LAB_A4/Lab04_160_163/Mux41/mux41_160_163.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux41_160_163.ucf -p xc7a100t-csg324-3 mux41_160_163.ngc mux41_160_163.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o mux41_160_163_map.ncd mux41_160_163.ngd mux41_160_163.pcf 
+par -w -intstyle ise -ol high -mt off mux41_160_163_map.ncd mux41_160_163.ncd mux41_160_163.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mux41_160_163.twx mux41_160_163.ncd -o mux41_160_163.twr mux41_160_163.pcf -ucf mux41_160_163.ucf 
+bitgen -intstyle ise -f mux41_160_163.ut mux41_160_163.ncd 
